@@ -10,6 +10,8 @@ const robotList = document.getElementById('robotList');
 // update DOM to reflect the new state
 for (let robot of robots) {
     const div = renderRobots(robot);
-
-    robotList.append(div);
+    const a = document.createElement('a');
+    a.href = `/robots/?id=${robot.id}`;
+    a.append(div);
+    robotList.append(a);
 }

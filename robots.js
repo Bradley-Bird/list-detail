@@ -1,5 +1,6 @@
 export const robots = [
     {
+        id: '1',
         name: 'Bender',
         info: [
             'Appears In: Futurama',
@@ -8,6 +9,7 @@ export const robots = [
         ],
     },
     {
+        id: '2',
         name: 'RoboCop',
         info: [
             'Appears In: RoboCop',
@@ -16,6 +18,7 @@ export const robots = [
         ],
     },
     {
+        id: '3',
         name: 'Iron Giant',
         info: [
             'Appears In: The Iron Giant',
