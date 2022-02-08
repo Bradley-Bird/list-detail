@@ -1,1 +1,12 @@
-/* add home page styles here */
+.main{
+    display: grid;
+}
+.robot-1 {
+    border: black 2px solid;
+}
+.robot-2 {
+    border: black 2px solid;
+}
+.robot-3 {
+    border: black 2px solid;
+}
