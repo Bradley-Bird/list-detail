@@ -1,12 +1,48 @@
-.main{
+.main {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.4fr 1.4fr 1.4fr 0.3fr;
+    gap: 1em 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "robot-img-1 robot-1 robot-1"
+        "robot-img-2 robot-2 robot-2"
+        "robot-img-3 robot-3 robot-3"
+        "footer footer footer";
 }
+
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
 .robot-1 {
-    border: black 2px solid;
+    grid-area: robot-1;
 }
+
 .robot-2 {
-    border: black 2px solid;
+    grid-area: robot-2;
 }
+
 .robot-3 {
-    border: black 2px solid;
+    grid-area: robot-3;
+}
+
+.robot-img-1 {
+    grid-area: robot-img-1;
+}
+
+.robot-img-2 {
+    grid-area: robot-img-2;
+}
+
+.robot-img-3 {
+    grid-area: robot-img-3;
+}
+img{
+    height: 100px;
 }
