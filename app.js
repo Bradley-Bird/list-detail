@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
 import { robots } from './robots.js';
-import { renderRobots, renderImg } from './utils.js';
+import { renderImg } from './utils.js';
 const robotList = document.getElementById('robotList');
 // let state
 
@@ -11,7 +11,7 @@ const robotList = document.getElementById('robotList');
 for (let robot of robots) {
     const idLink = `/robots/?id=${robot.id}`;
     // const idNum = robot.id;
-    const div = renderRobots(robot);
+    // const div = renderRobots(robot);
     const imgDiv = renderImg(robot);
     // imgDiv.classList.add(`robot-img-${idNum}`);
     // div.classList.add(`robot-${idNum}`);
@@ -19,5 +19,5 @@ for (let robot of robots) {
     // a.classList.add(`robot-img-${idNum}`);
     a.href = idLink;
     a.append(imgDiv);
-    robotList.append(div, a);
+    robotList.append(a);
 }

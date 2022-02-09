@@ -16,9 +16,9 @@ body {
     grid-auto-flow: row;
     grid-template-areas:
         "header header header"
-        "robot-img-1 robot-1 robot-1"
-        "robot-img-2 robot-2 robot-2"
-        "robot-img-3 robot-3 robot-3"
+        "robot-img-1 robot-img-1 robot-img-1"
+        "robot-img-2 robot-img-2 robot-img-2"
+        "robot-img-3 robot-img-3 robot-img-3"
         "footer footer footer";
 }
 
@@ -30,7 +30,7 @@ body {
     grid-area: footer;
 }
 
-.robot-1 {
+/* .robot-1 {
     grid-area: robot-1;
 }
 
@@ -42,7 +42,7 @@ body {
 .robot-3 {
     grid-area: robot-3;
     color: rgb(233, 233, 233);
-}
+} */
 
 .robot-img-1 {
     grid-area: robot-img-1;
