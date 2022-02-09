@@ -2,6 +2,8 @@
 import { robots } from '../robots.js';
 import { renderFocusRobot } from '../utils.js';
 
+const body = document.querySelector('.body');
+
 const robotFocus = document.getElementById('robot-focus');
 
 const params = new URLSearchParams(window.location.search);

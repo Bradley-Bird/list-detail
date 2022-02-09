@@ -19,5 +19,5 @@ for (let robot of robots) {
     // a.classList.add(`robot-img-${idNum}`);
     a.href = idLink;
     a.append(imgDiv);
-    robotList.append(div,a);
+    robotList.append(div, a);
 }
