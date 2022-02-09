@@ -26,7 +26,7 @@ export function renderImg(robot) {
     return imgDiv;
 }
 export function renderFocusRobot(robot) {
-    const body = document.querySelector('.body');
+    // const body = document.querySelector('.body');
     const div = document.createElement('div');
     div.classList.add(`focus${robot.id}`);
     const img = document.createElement('img');
@@ -41,7 +41,7 @@ export function renderFocusRobot(robot) {
         li.textContent = item;
         ul.append(li);
     }
-    body.style.backgroundImage = `url(../assets/background${robot.id}.jpg)`;
+    // body.style.backgroundImage = `url(../assets/background${robot.id}.jpg)`;
 
     div.append(img, h2, ul);
     return div;

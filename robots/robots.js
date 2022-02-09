@@ -17,3 +17,5 @@ const robot = robots.find((item) => item.id === params.get('id'));
 const renderFocus = renderFocusRobot(robot);
 
 robotFocus.append(renderFocus);
+
+body.style.backgroundImage = `url(../assets/background${robot.id}.jpg)`;
