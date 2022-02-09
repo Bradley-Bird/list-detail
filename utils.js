@@ -27,6 +27,8 @@ export function renderImg(robot) {
 }
 export function renderFocusRobot(robot) {
     const div = document.createElement('div');
+    const img = document.createElement('img');
+    img.src = `../assets/${robot.name}1.png`;
     const h2 = document.createElement('h2');
     h2.textContent = robot.name.toUpperCase();
     const ul = document.createElement('ul');
@@ -38,6 +40,6 @@ export function renderFocusRobot(robot) {
         ul.append(li);
     }
 
-    div.append(h2, ul);
+    div.append(img, h2, ul);
     return div;
 }
