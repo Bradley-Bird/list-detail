@@ -39,3 +39,40 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.focus1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 216, 216);
+    border: 2px gray solid;
+    background-color: rgba(82, 146, 146, .4);
+    text-decoration: underline;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.focus2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(56, 58, 212, .4);
+    color: rgb(211, 236, 101);
+    border: 2px gray solid;
+    text-decoration: underline;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+}
+
+.focus3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(56, 58, 212, .4);
+    color: rgb(212, 241, 106);
+    border: 2px gray solid;
+    text-decoration: underline;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
