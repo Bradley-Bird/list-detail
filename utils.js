@@ -46,3 +46,7 @@ export function renderFocusRobot(robot) {
     div.append(img, h2, ul);
     return div;
 }
+
+export function findById(id, data) {
+    return data.find((item) => item.id === id);
+}
